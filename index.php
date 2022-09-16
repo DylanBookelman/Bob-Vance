@@ -7,19 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>koelkasten</title>
     <link rel="stylesheet" href="style.css">
-</head>
+</head>  
 <body>
-    <nav class="flex items-center justify-between p-6 h-20 bg-white shadow-sm">
-        <div class="text-slate-500">Bob Vance koelkasten</div>
-        <ul>
-          <li class="space-x-5 text-xl">
-            <a href="#" class="hidden sm:inline-block text-indigo-700 hover:text-indigo-700">Home</a>
-            <a href="#" class="hidden sm:inline-block text-indigo-700 hover:text-indigo-700">oude/nieuwe koelkasten</a>
-            <a href="#" class="hidden sm:inline-block text-indigo-700 hover:text-indigo-700">verzekeren</a>
-            <a href="#" class="hidden sm:inline-block text-indigo-700 hover:text-indigo-700">reparaties</a>
-          </li>
-        </ul>
-      </nav>
+<?php
+include"navbar.html"
+?>
       <div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
         <div class="px-6">
             <div class="flex flex-wrap justify-center">
@@ -40,7 +32,7 @@
                         </div>
     
                         <div class="p-3 text-center">
-                            <span class="text-xl font-bold block uppercase tracking-wide text-slate-700">$56400</span>
+                            <span class="text-xl font-bold block uppercase tracking-wide text-slate-700">$564000</span>
                             <span class="text-sm text-slate-400">winst</span>
                         </div>
                     </div>
@@ -64,17 +56,8 @@
             </div>
         </div>
     </div>
-    
-    
-    <footer class="relative pt-6 pb-2 mt-6">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap items-center md:justify-between justify-center">
-                <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-                <div class="text-sm text-slate-500 font-semibold py-1">
-                </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php
+include"footer.html"
+?>
 </body>
 </html>
